@@ -12,9 +12,9 @@ class Account {
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        Account[] bapp = new Account[10];  // Array for 10 accounts
+        Account[] bapp = new Account[10]; 
         for(int i = 0; i < bapp.length; i++) {
-            bapp[i] = new Account();  // Initialize each account
+            bapp[i] = new Account();
         }
 
         int response;
@@ -38,7 +38,7 @@ public class Main {
 
                     switch(action) {
                         case 1:
-                            // Find first empty account slot
+                            
                             int emptyIndex = -1;
                             for(int i = 0; i < bapp.length; i++) {
                                 if(bapp[i].accNo == 0) {
