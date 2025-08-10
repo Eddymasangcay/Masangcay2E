@@ -1,21 +1,13 @@
-dapat ni nimong basahon kay gwapo ko
-gwapoha jud nako oie
-gwapoha jud nako oie
-gwapoha jud nako oie
-gwapoha jud nako oie
-gwapoha jud nako oie
-gwapoha jud nako oie
-gwapoha jud nako oie
-gwapoha jud nako oie
-gwapoha jud nako oie
-gwapoha jud nako oie
-gwapoha jud nako oie
-gwapoha jud nako oie
-gwapoha jud nako oie
-gwapoha jud nako oie
-gwapoha jud nako oie
-gwapoha jud nako oie
-gwapoha jud nako oie
-gwapoha jud nako oie
-gwapoha jud nako oie
-gwapoha jud nako oie
+------------------------------------------------------
+|                                                    |
+|         WELCOME SAKONG REPOSITORY MGA KUPAL        |
+|                                                    |
+|----------------------------------------------------|
+|  NAME: EDUARDO D. MASANGCAY                        |
+|----------------------------------------------------|
+|  AGE: 21                                           |
+|----------------------------------------------------|
+|  OCCUPATION: Sobraan ka gwapo                      |
+|----------------------------------------------------|
+| MOTTO: Gwapo ra kaayo ko.                          |
+------------------------------------------------------
