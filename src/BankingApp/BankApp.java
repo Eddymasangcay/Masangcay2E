@@ -1,51 +1,34 @@
 package BankingApp;
 
+import java.util.Scanner;
+
 public class BankApp {
-    
-    private int accNo, pin;
-    private float balance;
+    public static void bankingApp(Scanner sc, Account[] bapp) {
+        int action;
 
-    public void setAccNo(int accNo) {
-        this.accNo = accNo;
-    }
+        do {
+            System.out.println("1. Register");
+            System.out.println("2. Login");
+            System.out.println("3. Exit");
+            System.out.print("Enter Action: ");
+            action = sc.nextInt();
 
-    public int getAccNo() {
-        return accNo;
-    }
+            switch (action) {
+                case 1:
+                    Register.register(sc, bapp);
+                    break;
 
-    public void setPin(int pin) {
-        this.pin = pin;
-    }
+                case 2:
+                    Login.login(sc, bapp);
+                    break;
 
-    public void setBalance(float balance) {
-        this.balance = balance;
-    }
+                case 3:
+                    System.out.println("Exiting banking system...");
+                    break;
 
-    public int getPin() {
-        return pin;
+                default:
+                    System.out.println("INVALID ACTION");
+            }
+        } while (action != 3);
     }
-
-    public float getBalance() {
-        return balance;
-    }
-    
-    
-    
-    
-    public boolean verifyAccount(int acc, int pn){
-        if(accNo == acc && pin == pn){
-            return true;
-        }else{
-            return false;
-        }
-    }
-    
-    public void withdraw(){
-    
-    }
-    
-    public void deposit(){
-    
-    }
-    
 }
