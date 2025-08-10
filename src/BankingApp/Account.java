@@ -5,12 +5,6 @@ public class Account {
     private int pin;
     private float balance;
 
-    public Account() {
-        this.accNo = 0;
-        this.pin = 0;
-        this.balance = 0.0f;
-    }
-
     public void accno(int accNo) {
         this.accNo = accNo;
     }

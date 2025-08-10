@@ -23,6 +23,7 @@ public class Main {
             System.out.println("1. Banking");
             System.out.println("2. Shopping");
             System.out.println("3. Pay Bills");
+            System.out.println("4. Exit");
             System.out.print("Enter your choice: ");
             int choice = sc.nextInt();
 
